@@ -1,1 +1,68 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial;
+  margin: 10;
+  background-color: #ffe6f3;
+}
+
+.sidenav {
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav img {
+  display: block;
+  margin-right: auto;
+  max-width: 90%;
+  margin-left: 15px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  background-color: #f588c0;
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 18px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-left: 400px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
