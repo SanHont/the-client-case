@@ -26,11 +26,11 @@ nav img {
   display: block;
   margin-right: auto;
   max-width: 90%;
-  margin-left: 15px;
+  margin: auto;
 }
 
-main{
-  margin: 1rem auto;
+main {
+  margin: 2rem auto;
   min-height: 101vh;
 }
 
@@ -50,7 +50,7 @@ nav a:hover {
   font-size: 30px;
 }
 
-section{
+section {
   /* margin-left: 160px; */
   /* Same as the width of the sidenav */
   font-size: 18px;
@@ -68,6 +68,10 @@ section{
   }
 }
 
+img {
+  width: 100%;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1100px;
@@ -82,9 +86,9 @@ section{
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
+  background-color: #b9005f;
   font-size: 20px;
-  color: #444;
+  color: #fff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -97,7 +101,7 @@ section{
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
-  background-color: #ccc;
+  background-color: #f588c0;
 }
 
 /* Style the accordion panel. Note: hidden by default */
