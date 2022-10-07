@@ -11,6 +11,7 @@ body {
   background-color: #ffe6f3;
 }
 
+
 nav {
   height: 100vh;
   width: 280px;
@@ -29,11 +30,6 @@ nav img {
   margin: auto;
 }
 
-main {
-  margin: 2rem auto;
-  min-height: 101vh;
-}
-
 nav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -48,6 +44,11 @@ nav a:hover {
   background-color: #f588c0;
   color: #f1f1f1;
   font-size: 30px;
+}
+
+main {
+  margin: 2rem auto;
+  min-height: 101vh;
 }
 
 section {
@@ -125,4 +126,28 @@ img {
 .active:after {
   content: "\2796";
   /* Unicode character for "minus" sign (-) */
+}
+
+main ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+main li {
+  border-radius: 25px;
+  background: mediumpurple;
+  box-shadow: #222 0px 4px 8px;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  margin: 1em;
+  transition: 0.3s ease-in;
+}
+
+main li:hover {
+  box-shadow: #222 0px 16px 24px
 }
