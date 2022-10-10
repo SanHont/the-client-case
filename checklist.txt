@@ -3,3 +3,4 @@ Gele meldingen toevoegen
 Style geven, juiste kleuren kiezen
 html validator proberen helemaal op te lossen
 Responsive maken
+Fix navigatie en formulieren teksten ook. Gewoon alle pagina's
