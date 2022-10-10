@@ -13,7 +13,7 @@ function currentSlide(n) {
 
 function showSlides() {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
+  let slides = document.getElementsByClassName("my-slides");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
