@@ -1,6 +1,3 @@
-Code in de text voegen
 Blauwe meldingen toevoegen
 Gele meldingen toevoegen
 Style geven, juiste kleuren kiezen
-
-tekst in het midden van vak zetten
