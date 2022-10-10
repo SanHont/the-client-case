@@ -1,3 +1,5 @@
 Blauwe meldingen toevoegen
 Gele meldingen toevoegen
 Style geven, juiste kleuren kiezen
+html validator proberen helemaal op te lossen
+Responsive maken
