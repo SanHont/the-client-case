@@ -151,6 +151,8 @@ img {
   border: none;
   outline: none;
   transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -165,7 +167,7 @@ img {
   background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.5s ease-out;
 }
 
 .accordion:after {
@@ -212,6 +214,7 @@ main .menu {
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;
+  appearance: none;
   width: 0.8rem;
 }
 
@@ -219,4 +222,8 @@ main .menu {
   border-radius: 4px;
   background-color: #b9005f;
   box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+}
+
+section a{
+  background-color: #b9005f;
 }
