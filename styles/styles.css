@@ -9,7 +9,7 @@ body {
   grid-template-areas: 'nav main';
   max-height: 100vh;
   overflow: hidden;
-  font-family: Arial;
+  font-family: Fira sans, sans-serif;
   background-color: #ffffff;
 }
 
